@@ -7,7 +7,7 @@ You will need to add the wps-router.php file to your theme, plugin, or child the
 ## How to set a route and template
 Create a new instance of the router class with an array of the router arguments.
 ```
-  $router = new WPStudioCode\WPS_Router\Router(
+  $router = new WPStudioCode\WPS_Router\WPSRouter(
     [
       'muffin' => [
         'route' => muffin/,
